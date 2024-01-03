@@ -1,0 +1,24 @@
+.button-txt{
+    font-family: var(--font-poppins);
+    color: var(--black);
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.07rem;
+}
+
+.title-section{
+    font-family: var(--font-poppins);
+    color: var(--black);
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+
+.card-contact-txt{
+    font-family: var(--font-poppins);
+    color: var(--white);
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.15rem;
+    line-height: 1.8rem;
+}
