@@ -1,0 +1,11 @@
+.shape-5{
+    width: 15rem;
+    margin: 2rem;
+}
+
+.shape-6{
+    width: 110%;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}

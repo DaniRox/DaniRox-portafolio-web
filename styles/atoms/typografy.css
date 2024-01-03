@@ -14,6 +14,14 @@
     margin-bottom: 3rem;
 }
 
+.subtitle-section{
+    font-family: var(--font-poppins);
+    color: var(--black);
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+}
+
 .card-contact-txt{
     font-family: var(--font-poppins);
     color: var(--white);
@@ -21,4 +29,11 @@
     font-weight: 500;
     letter-spacing: 0.15rem;
     line-height: 1.8rem;
+}
+
+.txt-about-me{
+    font-family: var(--font-lustria);
+    color: var(--black);
+    letter-spacing: 0.07rem;
+    line-height: 1.2rem;
 }

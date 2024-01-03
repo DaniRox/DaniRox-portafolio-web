@@ -1,9 +1,12 @@
 .main-template{
+    background-color: var(--white);
     width: 100%;
     padding: 0 15%;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    position: relative;
+    z-index: 1;
 }
 
 
