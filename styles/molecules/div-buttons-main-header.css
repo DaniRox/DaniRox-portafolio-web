@@ -10,12 +10,13 @@
 @media only screen and (min-width: 470px){
     .div-buttons-main-header{
         flex-direction: row;
+        margin: 5rem 0;
     }
 }
 
 @media only screen and (min-width: 1024px){
     .div-buttons-main-header{
         justify-content: space-evenly;
-        margin: 3rem 0 0 0;
+        margin: 6rem 0 0 0;
     }
 }
