@@ -1,3 +1,44 @@
+.title-main-header{
+    font-family: var(--font-poppins);
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: -1.6rem;
+}
+
+.title-main-header--white{
+    color: var(--white);
+    -webkit-text-stroke: 1.5px var(--black)
+}
+
+.title-main-header--right{
+    margin-left: 85%;
+    font-size: 4.5rem;
+    color: var(--primary-color);
+}
+
+
+
+
+@media only screen and (min-width: 470px){
+    .title-main-header{
+        font-size: 2.4rem;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .title-main-header{
+        font-size: 3rem;
+    }
+
+    .title-main-header--right{
+        font-size: 4.5rem;
+    }
+}
+
+
+
 .button-txt{
     font-family: var(--font-poppins);
     color: var(--black);
@@ -29,7 +70,7 @@
     color: var(--black);
     font-size: 1.6rem;
     font-weight: 600;
-    margin-bottom: 0.7rem;
+    margin: 0.7rem 0;
 }
 
 .txt-card-contact{

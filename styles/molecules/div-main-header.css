@@ -1,0 +1,22 @@
+.div-main-header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+
+@media only screen and (min-width: 470px){
+    .div-main-header{
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .div-main-header{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
