@@ -8,13 +8,13 @@
 }
 
 
-@media only screen and (min-width: 470px){
+@media only screen and (min-width: 480px){
     .div-main-header{
         justify-content: space-around;
     }
 }
 
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1080px){
     .div-main-header{
         flex-direction: row;
         justify-content: center;

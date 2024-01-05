@@ -12,14 +12,14 @@
 }
 
 
-@media only screen and (min-width: 470px){
+@media only screen and (min-width: 480px){
     .card-banner{
         width: 90%;
         padding: 3rem 4rem;
     }
 }
 
-@media only screen and (min-width: 760px){
+@media only screen and (min-width: 770px){
     .card-banner{
         width: 80%;
         flex-direction: row;
@@ -27,7 +27,7 @@
     }
 }
 
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1080px){
     .card-banner{
         width: 70%;
     }

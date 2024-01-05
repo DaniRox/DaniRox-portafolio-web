@@ -4,19 +4,19 @@
 }
 
 
-@media only screen and (min-width: 470px){
+@media only screen and (min-width: 480px){
     .photo-profil{
         width: 26rem;
     }
 }
 
-@media only screen and (min-width: 760px){
+@media only screen and (min-width: 770px){
     .photo-profil{
         width: 28rem;
     }
 }
 
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1080px){
     .photo-profil{
         width: 32rem;
     }

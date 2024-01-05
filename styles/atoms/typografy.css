@@ -22,7 +22,7 @@
 
 
 
-@media only screen and (min-width: 470px){
+@media only screen and (min-width: 480px){
     .title-main-header{
         font-size: 2.4rem;
         margin-bottom: -1.1rem;
@@ -33,7 +33,7 @@
     }
 }
 
-@media only screen and (min-width: 760px){
+@media only screen and (min-width: 770px){
     .title-main-header{
         font-size: 2.6rem;
         letter-spacing: 0.2rem;
@@ -60,7 +60,7 @@
 .title-section{
     font-family: var(--font-poppins);
     color: var(--black);
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     font-weight: 800;
     margin: 1rem 0 3rem 0;
 }
@@ -86,7 +86,7 @@
 .txt-card{
     font-family: var(--font-poppins);
     color: var(--black);
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     margin: 0.7rem 0;
     line-height: 1.8rem;
@@ -101,13 +101,15 @@
 
 .txt-description-card-project{
     font-family: var(--font-lustria);
+    font-size: 1rem;
     color: var(--black);
-    letter-spacing: 0.07rem;
-    line-height: 1.2rem;
+    letter-spacing: 0.06rem;
+    line-height: 1rem;
 }
 
 .txt-about-me{
     font-family: var(--font-lustria);
+    font-size: 1rem;
     color: var(--black);
     letter-spacing: 0.07rem;
     line-height: 1.2rem;
