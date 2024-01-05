@@ -14,6 +14,16 @@
     margin-bottom: 3rem;
 }
 
+.title-card-project{
+    font-family: var(--font-poppins);
+    color: var(--black);
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.15rem;
+    line-height: 1.8rem;
+    margin-bottom: 0.3rem;
+}
+
 .subtitle-section{
     font-family: var(--font-poppins);
     color: var(--black);
@@ -22,13 +32,20 @@
     margin-bottom: 0.7rem;
 }
 
-.card-contact-txt{
+.txt-card-contact{
     font-family: var(--font-poppins);
     color: var(--white);
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: 0.15rem;
     line-height: 1.8rem;
+}
+
+.txt-description-card-project{
+    font-family: var(--font-lustria);
+    color: var(--black);
+    letter-spacing: 0.07rem;
+    line-height: 1.2rem;
 }
 
 .txt-about-me{

@@ -1,0 +1,14 @@
+.group-cards-gallery{
+    width: 120%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (min-width: 1280px){
+    .group-cards-gallery{
+        width: 100%;
+    }
+}

@@ -1,0 +1,7 @@
+.div-img-project{
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
