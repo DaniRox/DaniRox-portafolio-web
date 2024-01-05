@@ -23,3 +23,9 @@
         width: 100%;
     }
 }
+
+@media only screen and (min-width: 1280px){
+    .header-template{
+        padding: 4rem 20%;
+    }
+}
