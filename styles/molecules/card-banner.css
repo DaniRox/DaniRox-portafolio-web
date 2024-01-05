@@ -5,6 +5,7 @@
     background-color: var(--white);
     border-radius: 1rem;
     box-sizing: border-box;
+    margin-top: 3rem;
     display: flex;
     align-items: center;
     box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.10);
