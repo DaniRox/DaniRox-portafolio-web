@@ -4,8 +4,8 @@
 }
 
 .shape-6{
-    width: 50rem;
-    margin-top: -16rem;
+    width: 70rem;
+    margin-top: -10rem;
     overflow: hidden;
     position: absolute;
     z-index: -1;
@@ -14,7 +14,7 @@
 
 @media only screen and (min-width: 460px){
     .shape-6{
-        width: 65rem;
+        width: 80rem;
         margin-top: -16rem;
     }
 }
