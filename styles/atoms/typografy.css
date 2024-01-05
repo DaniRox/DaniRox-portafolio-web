@@ -59,7 +59,7 @@
 .button-txt{
     font-family: var(--font-poppins);
     color: var(--black);
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 600;
     letter-spacing: 0.07rem;
 }
@@ -85,7 +85,7 @@
 .subtitle-section{
     font-family: var(--font-poppins);
     color: var(--black);
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     font-weight: 600;
     margin: 0.7rem 0;
 }
