@@ -21,7 +21,7 @@
 
 @media only screen and (min-width: 760px){
     .card-contact{
-        width: 70%;
+        width: 80%;
         padding: 4rem 5rem;
         flex-direction: row;
         justify-content: space-evenly;
@@ -30,7 +30,7 @@
 
 @media only screen and (min-width: 1024px){
     .card-contact{
-        width: 60%;
+        width: 70%;
         flex-direction: row;
         justify-content: space-evenly;
     }

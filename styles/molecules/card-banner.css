@@ -21,7 +21,7 @@
 
 @media only screen and (min-width: 760px){
     .card-banner{
-        width: 70%;
+        width: 80%;
         flex-direction: row;
         justify-content: space-evenly;
     }
@@ -29,6 +29,6 @@
 
 @media only screen and (min-width: 1024px){
     .card-banner{
-        width: 60%;
+        width: 70%;
     }
 }
