@@ -2,7 +2,7 @@
     font-family: var(--font-poppins);
     color: var(--black);
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 800;
     margin-bottom: -1rem;
     letter-spacing: 0.07rem;
@@ -10,12 +10,12 @@
 
 .title-main-header--white{
     color: var(--white);
-    -webkit-text-stroke: 1.5px var(--black)
+    -webkit-text-stroke: 1px var(--black)
 }
 
 .title-main-header--right{
     margin-left: 85%;
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     color: var(--primary-color);
 }
 
@@ -24,18 +24,30 @@
 
 @media only screen and (min-width: 480px){
     .title-main-header{
-        font-size: 2.4rem;
+        font-size: 2rem;
         margin-bottom: -1.1rem;
     }
 
     .title-main-header--right{
-        font-size: 3.3rem;
+        font-size: 3rem;
     }
 }
 
 @media only screen and (min-width: 770px){
     .title-main-header{
-        font-size: 2.6rem;
+        font-size: 2.1rem;
+        letter-spacing: 0.2rem;
+        margin-bottom: -1.2rem;
+    }
+
+    .title-main-header--right{
+        font-size: 3.1rem;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    .title-main-header{
+        font-size: 2.2rem;
         letter-spacing: 0.2rem;
         margin-bottom: -1.3rem;
     }
@@ -44,7 +56,6 @@
         font-size: 3.5rem;
     }
 }
-
 
 
 
@@ -89,7 +100,7 @@
     font-size: 1rem;
     font-weight: 600;
     margin: 0.7rem 0;
-    line-height: 1.8rem;
+    line-height: 1.5rem;
     letter-spacing: 0.07rem;
 }
 
