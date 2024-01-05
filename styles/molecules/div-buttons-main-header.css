@@ -1,6 +1,21 @@
 .div-buttons-main-header{
-    margin: 3rem;
+    margin: 3rem 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+}
+
+
+@media only screen and (min-width: 470px){
+    .div-buttons-main-header{
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .div-buttons-main-header{
+        justify-content: space-evenly;
+        margin: 3rem 0 0 0;
+    }
 }

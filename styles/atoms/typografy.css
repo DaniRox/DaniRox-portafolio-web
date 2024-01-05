@@ -2,9 +2,9 @@
     font-family: var(--font-poppins);
     color: var(--black);
     text-transform: uppercase;
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 800;
-    margin-bottom: -1.6rem;
+    margin-bottom: -1rem;
 }
 
 .title-main-header--white{
@@ -14,7 +14,7 @@
 
 .title-main-header--right{
     margin-left: 85%;
-    font-size: 4.5rem;
+    font-size: 2.8rem;
     color: var(--primary-color);
 }
 
@@ -24,12 +24,29 @@
 @media only screen and (min-width: 470px){
     .title-main-header{
         font-size: 2.4rem;
+        margin-bottom: -1.1rem;
+    }
+
+    .title-main-header--right{
+        font-size: 3.3rem;
+    }
+}
+
+@media only screen and (min-width: 760px){
+    .title-main-header{
+        font-size: 2.8rem;
+        margin-bottom: -1.3rem;
+    }
+
+    .title-main-header--right{
+        font-size: 3.9rem;
     }
 }
 
 @media only screen and (min-width: 1024px){
     .title-main-header{
         font-size: 3rem;
+        margin-bottom: -1.6rem;
     }
 
     .title-main-header--right{
