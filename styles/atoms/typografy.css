@@ -5,6 +5,7 @@
     font-size: 2rem;
     font-weight: 800;
     margin-bottom: -1rem;
+    letter-spacing: 0.07rem;
 }
 
 .title-main-header--white{
@@ -34,25 +35,17 @@
 
 @media only screen and (min-width: 760px){
     .title-main-header{
-        font-size: 2.8rem;
+        font-size: 2.6rem;
+        letter-spacing: 0.2rem;
         margin-bottom: -1.3rem;
     }
 
     .title-main-header--right{
-        font-size: 3.9rem;
+        font-size: 3.5rem;
     }
 }
 
-@media only screen and (min-width: 1024px){
-    .title-main-header{
-        font-size: 3rem;
-        margin-bottom: -1.6rem;
-    }
 
-    .title-main-header--right{
-        font-size: 4.5rem;
-    }
-}
 
 
 

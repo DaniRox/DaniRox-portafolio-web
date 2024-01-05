@@ -1,0 +1,10 @@
+.div-text-main-header{
+    margin-left: 0rem;
+}
+
+
+@media only screen and (min-width: 1024px){
+    .div-text-main-header{
+        margin-left: -6rem;
+    }
+}

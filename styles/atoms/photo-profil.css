@@ -2,3 +2,22 @@
     width: 20rem;
     margin: 1.5rem 0;
 }
+
+
+@media only screen and (min-width: 470px){
+    .photo-profil{
+        width: 26rem;
+    }
+}
+
+@media only screen and (min-width: 760px){
+    .photo-profil{
+        width: 28rem;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .photo-profil{
+        width: 32rem;
+    }
+}
