@@ -1,6 +1,6 @@
 .btn-menu-nav {
     width: 1.3rem;
-    padding: 1rem 1rem 1rem 1.5rem;
+    padding: 1rem 0rem 1rem 1.5rem;
     display: flex;
     z-index: 2;
     position: fixed;

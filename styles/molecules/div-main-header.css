@@ -1,6 +1,6 @@
 .div-main-header{
     width: 80%;
-    padding: 1.5rem 15% 0;
+    padding: 2rem 15% 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,9 +15,9 @@
     }
 }
 
-@media only screen and (min-width: 770px){
+@media only screen and (min-width: 1080px){
     .div-main-header{
-        padding: 0rem 15% 0;
+        padding: 5rem 15% 0;
     }
 }
 
@@ -25,11 +25,12 @@
     .div-main-header{
         flex-direction: row;
         justify-content: center;
+        padding: 7rem 15% 0;
     }
 }
 
 @media only screen and (min-width: 1280px){
     .div-main-header{
-        padding: 4rem 20%;
+        padding: 7rem 20% 0;
     }
 }

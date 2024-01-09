@@ -12,6 +12,7 @@
 
 @media only screen and (min-width: 770px) {
     .nav {
+        height: 4.5rem;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
