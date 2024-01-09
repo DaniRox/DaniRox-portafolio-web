@@ -1,5 +1,6 @@
 .footer{
-    position: fixed;
+    background-color: var(--complementary-color);
+    position: relative;
     bottom: 0;
     display: flex;
     justify-content: center;
