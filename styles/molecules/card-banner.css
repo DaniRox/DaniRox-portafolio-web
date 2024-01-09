@@ -1,6 +1,7 @@
 .card-banner{
-    width: 120%;
+    width: 80%;
     height: auto;
+    margin-bottom: 1rem;
     padding: 1.5rem 2.5rem;
     background-color: var(--white);
     border-radius: 1rem;
@@ -15,7 +16,7 @@
 
 @media only screen and (min-width: 770px){
     .card-banner{
-        width: 80%;
+        width: 70%;
         padding: 2rem 3rem;
         flex-direction: row;
         justify-content: space-evenly;
@@ -24,6 +25,12 @@
 
 @media only screen and (min-width: 1080px){
     .card-banner{
-        width: 70%;
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+    .card-banner{
+        max-width: 60rem;
     }
 }

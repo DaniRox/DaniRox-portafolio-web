@@ -1,0 +1,32 @@
+.menu-nav {
+    height: 9rem;
+    right: 2rem;
+    top: 4.5rem;
+    position: fixed;
+    z-index: 3;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.menu-nav-footer{
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+@media only screen and (min-width: 770px) {
+    .menu-nav {
+        width: 25rem;
+        height: 3rem;
+        margin-right: 0rem;
+        position: revert;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}

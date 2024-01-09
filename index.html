@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="./styles/atoms/photo-profil.css">
     <link rel="stylesheet" href="./styles/atoms/icon-contact.css">
     <link rel="stylesheet" href="./styles/atoms/links.css">
+    <link rel="stylesheet" href="./styles/atoms/logo-header.css">
+    <link rel="stylesheet" href="./styles/atoms/btn-menu-nav.css">
 
     <!-- molecules -->
     <link rel="stylesheet" href="./styles/molecules/card-contact.css">
@@ -34,6 +36,8 @@
     <link rel="stylesheet" href="./styles/molecules/div-main-header.css">
     <link rel="stylesheet" href="./styles/molecules/div-text-main-header.css">
     <link rel="stylesheet" href="./styles/molecules/div-icons-contact.css">
+    <link rel="stylesheet" href="./styles/molecules/menu.css">
+    <link rel="stylesheet" href="./styles/molecules/menu-nav.css">
 
     <!-- organisms -->
     <link rel="stylesheet" href="./styles/organisms/contact-section.css">
@@ -44,17 +48,31 @@
     <!-- template -->
     <link rel="stylesheet" href="./styles/template/main-template.css">
     <link rel="stylesheet" href="./styles/template/header-template.css">
+    <link rel="stylesheet" href="./styles/template/nav.css">
 
     <link rel="icon" href="" />
     <title>DaniRox - Portafolio</title>
 </head>
 <body>
-    <!--
 
--->
-    <header class="header-template">
+    <header class="header-template" id="home">
 
-        <nav>
+        <nav class="nav">
+
+            <div class="menu">
+
+                <img src="./assets/logo-danirox-header.svg" alt="menu logo" class="logo-header">
+
+                <img src="./assets/menu-icon.svg" alt="menu icon" id="btn-menu-nav" class="btn-menu-nav">
+
+            </div>
+
+            <div class="menu-nav" id="menu-nav">
+                <a href="#home" class="txt-menu-nav">inicio</a>
+                <a href="#gallery" class="txt-menu-nav">galería</a>
+                <a href="#about-me" class="txt-menu-nav">sobre mi</a>
+                <a href="#contact" class="txt-menu-nav">contacto</a>
+            </div>
 
         </nav>
 
@@ -64,7 +82,7 @@
             <img src="./assets/photo-profil.png" alt="photo profil" class="photo-profil">
             <div class="div-text-main-header">
                 <div class="div-main-title">
-                    <span class="title-main-header title-main-header--white">Desarrollo UX/UI</span>
+                    <span class="title-main-header title-main-header--white">Diseño UX/UI</span>
                     <span class="title-main-header title-main-header--right">&</span>
                     <span class="title-main-header">Desarrollo Web</span>
                 </div>
@@ -79,14 +97,14 @@
         </div>
 
         <div class="card-banner">
-            <span class="span-card-banner txt-card">Escribíme, me encantaría que trabajemos juntos!</span>
+            <span class="span-card-banner txt-card">¡Bienvenido a explorar mi viaje en un mundo de energía creativa en constante evolución!</span>
         </div>
 
     </header>
 
     <main class="main-template">
 
-        <section class="gallery-section">
+        <section class="gallery-section" id="gallery">
 
             <h2 class="title-section">Galería</h2>
 
@@ -174,7 +192,7 @@
 
         </section>
 
-        <section class="about-me-section">
+        <section class="about-me-section" id="about-me">
             
             <h2 class="title-section">Sobre mí</h2>
 
@@ -227,6 +245,7 @@
         </section>
     </main>
 
+    <script src="./js/display-menu.js"></script>
 
 </body>
 </html>

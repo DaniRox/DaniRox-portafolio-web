@@ -9,6 +9,6 @@
 
 @media only screen and (min-width: 1280px){
     .group-cards-gallery{
-        width: 100%;
+        max-width: 64rem;
     }
 }

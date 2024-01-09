@@ -1,7 +1,6 @@
 .header-template{
     background-color: var(--white);
     width: 100%;
-    padding: 4rem 15%;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -9,23 +8,4 @@
     z-index: 1;
     overflow: hidden;
     align-items: center;
-}
-
-
-@media only screen and (min-width: 770px){
-    .header-template{
-        width: 100%;
-    }
-}
-
-@media only screen and (min-width: 1080px){
-    .header-template{
-        width: 100%;
-    }
-}
-
-@media only screen and (min-width: 1280px){
-    .header-template{
-        padding: 4rem 20%;
-    }
 }
