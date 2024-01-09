@@ -1,14 +1,14 @@
 .icon-contact{
-    width: 2rem;
+    width: 2.5rem;
     margin: 1.5rem;
 }
 
 
 
 
-@media only screen and (min-width: 480px){
+@media only screen and (min-width: 770px){
     .icon-contact{
-        width: 2rem;
+        width: 3rem;
         margin: 2rem;
     }
 }
