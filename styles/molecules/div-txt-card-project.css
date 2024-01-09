@@ -1,5 +1,13 @@
 .div-txt-card-project{
+    height: 40%;
     display: flex;
     flex-direction: column;
     padding: 1rem;
 }
+
+
+
+/* estilos para la función de display-txt-project.js */
+ .show-txt{
+    height: 100%;
+ }
