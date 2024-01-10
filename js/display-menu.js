@@ -1,3 +1,4 @@
+const menuItems = document.getElementsByClassName("txt-menu-nav");
 const menu = document.getElementById("nav");
 const menuNav = document.getElementById("menu-nav");
 const btnMenu = document.getElementById("btn-menu-nav");
@@ -15,3 +16,5 @@ function displayMenu(){
 
 //escuchador de evento para el boton menu que activa la funcion
 btnMenu.addEventListener("click", displayMenu);
+
+

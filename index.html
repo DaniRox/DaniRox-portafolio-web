@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="./styles/atoms/logo-header.css">
     <link rel="stylesheet" href="./styles/atoms/btn-menu-nav.css">
     <link rel="stylesheet" href="./styles/atoms/description-card-project.css">
+    <link rel="stylesheet" href="./styles/atoms/animation-scroll.css">
 
     <!-- molecules -->
     <link rel="stylesheet" href="./styles/molecules/card-contact.css">
@@ -70,10 +71,10 @@
             </div>
 
             <div class="menu-nav" id="menu-nav">
-                <a href="#home" class="txt-menu-nav">inicio</a>
-                <a href="#gallery" class="txt-menu-nav">galería</a>
-                <a href="#about-me" class="txt-menu-nav">sobre mi</a>
-                <a href="#contact" class="txt-menu-nav">contacto</a>
+                <a href="#home" class="txt-menu-nav menu-item">inicio</a>
+                <a href="#gallery" class="txt-menu-nav menu-item">galería</a>
+                <a href="#about-me" class="txt-menu-nav menu-item">sobre mi</a>
+                <a href="#contact" class="txt-menu-nav menu-item">contacto</a>
             </div>
 
         </nav>
@@ -96,10 +97,11 @@
                     <button class="button button--primary button-txt">descarga mi CV</button>
                 </div>
             </div>
+            
         </div>
 
-        <div class="card-banner">
-            <span class="span-card-banner txt-card">¡Bienvenido a explorar mi viaje en un mundo de energía creativa en constante evolución!</span>
+        <div class="card-banner animated">
+            <span class="span-card-banner txt-card">Hola! Soy Dani, desarrolladora web front-end y diseñadora UX/UI. ¡Bienvenido a explorar mi viaje en un mundo de energía creativa en constante evolución!</span>
         </div>
 
     </header>
@@ -120,7 +122,7 @@
                     
                     <div class="div-txt-card-project">
                         <h3 class="title-card-project">Calculadora de edad</h3>
-                        <p class="description-card-project txt-description-card-project">App que calcula el tiempo transcurrido en años, meses y dias desde la fecha ingresada. Este proyecto se realizó partiendo de un diseño dado en Figma para la plataforma Frontend Mentor.</p>
+                        <p class="description-card-project txt-description-card-project">App que calcula el tiempo transcurrido en años, meses y días desde la fecha ingresada. Este proyecto se realizó partiendo de un diseño dado en Figma para la plataforma Frontend Mentor.</p>
                     </div>
 
                 </div>
@@ -128,12 +130,12 @@
                 <div class="card-project">
 
                     <div class="div-img-project">
-                        <img src="./assets/Screenshot-calculadora-de-edad.png" alt="project screenshot" class="img-card-project">
+                        <img src="./assets/Screenshot-newsletter.png" alt="project screenshot" class="img-card-project">
                     </div>
                     
                     <div class="div-txt-card-project">
-                        <h3 class="title-card-project">Proyecto</h3>
-                        <p class="description-card-project txt-description-card-project">App que calcula el tiempo transcurrido en años, meses y dias desde la fecha ingresada. Este proyecto se realizó partiendo de un diseño dado en Figma para la plataforma Frontend Mentor.</p>
+                        <h3 class="title-card-project">Suscripción a boletín</h3>
+                        <p class="description-card-project txt-description-card-project">Formulario de suscripción a un boletín con respuesta . Este proyecto se realizó partiendo de un diseño dado en Figma para la plataforma Frontend Mentor.</p>
                     </div>
 
                 </div>
@@ -141,11 +143,11 @@
                 <div class="card-project">
 
                     <div class="div-img-project">
-                        <img src="./assets/Screenshot-calculadora-de-edad.png" alt="project screenshot" class="img-card-project">
+                        <img src="./assets//Screenshot-encriptador.png" alt="project screenshot" class="img-card-project">
                     </div>
                     
                     <div class="div-txt-card-project">
-                        <h3 class="title-card-project">Proyecto</h3>
+                        <h3 class="title-card-project">Encriptador de textos</h3>
                         <p class="description-card-project txt-description-card-project">App que calcula el tiempo transcurrido en años, meses y dias desde la fecha ingresada. Este proyecto se realizó partiendo de un diseño dado en Figma para la plataforma Frontend Mentor.</p>
                     </div>
 
@@ -183,6 +185,10 @@
                 <button class="button button--secondary button-txt">escribíme</button>
             </div>
 
+            <div class="card-contact card-contact--light">
+                <span class="span-card-contact txt-card">daniroxescobar@gmail.com</span>
+                <button class="button button--secondary button-txt">copiar</button>
+            </div>
 
 
             <img src="./assets/shape-6.svg" alt="shape background" class="shape-6">
@@ -216,8 +222,9 @@
 
     <script src="./js/display-menu.js"></script>
     <script src="./js/animation-icon-contact.js"></script>
-
     <script src="./js/display-txt-project.js"></script>
+
+    <!--<script src="./js/animation-scroll.js"></script>-->
 
 </body>
 </html>

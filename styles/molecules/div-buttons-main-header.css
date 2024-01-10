@@ -1,5 +1,5 @@
 .div-buttons-main-header{
-    margin: 6rem 0 3rem;
+    margin: 3rem 0 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -16,12 +16,12 @@
 @media only screen and (min-width: 770px){
     .div-buttons-main-header{
         justify-content: space-evenly;
-        margin: 6rem 0 3rem;
+        margin: 4rem 0 2rem;
     }
 }
 
 @media only screen and (min-width: 1080px){
     .div-buttons-main-header{
-        margin: 6rem 0 0 0;
+        margin: 5rem 0 0 0;
     }
 }

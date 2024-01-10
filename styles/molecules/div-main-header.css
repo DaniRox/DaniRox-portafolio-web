@@ -1,11 +1,11 @@
 .div-main-header{
     width: 80%;
-    padding: 2rem 15% 0;
+    padding: 2rem 15% 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 3rem 0;
+    margin: 3rem 0 0;
 }
 
 
@@ -25,12 +25,13 @@
     .div-main-header{
         flex-direction: row;
         justify-content: center;
-        padding: 7rem 15% 0;
+        margin: 0;
+        padding: 5rem 15% 2rem;
     }
 }
 
 @media only screen and (min-width: 1280px){
     .div-main-header{
-        padding: 7rem 20% 0;
+        padding: 5rem 20% 3rem;
     }
 }
