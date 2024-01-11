@@ -4,6 +4,7 @@ const cardsProjects = document.querySelectorAll(".card-project");
 // Itero sobre cada elemento y asigno los eventos
 cardsProjects.forEach(function(cardProject) {
     const imgProject = cardProject.querySelector(".div-img-project");
+    const btnsProject = cardProject.querySelector(".div-btn-project");
     const textProject = cardProject.querySelector(".div-txt-card-project");
 
     // Asigno los eventos a cada elemento
