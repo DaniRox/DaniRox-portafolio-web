@@ -5,6 +5,7 @@
     z-index: 2;
     position: fixed;
     right: 15%;
+    cursor: pointer;
 }
 
 

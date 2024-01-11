@@ -1,0 +1,11 @@
+.btn-menu-item{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn-menu-item--active{
+    font-weight: 600;
+    border-bottom: 0.2rem solid var(--secondary-color);
+}
