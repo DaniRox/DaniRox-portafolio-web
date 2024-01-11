@@ -121,6 +121,14 @@
     margin: 0.7rem 0;
 }
 
+.txt-description-card-project{
+    font-family: var(--font-lustria);
+    font-size: 0.9rem;
+    color: var(--black);
+    letter-spacing: 0.06rem;
+    line-height: 1rem;
+}
+
 .txt-card{
     font-family: var(--font-poppins);
     color: var(--black);
@@ -137,17 +145,13 @@
     text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
 
-.txt-description-card-project{
-    font-family: var(--font-lustria);
-    font-size: 0.8rem;
-    color: var(--black);
-    letter-spacing: 0.06rem;
-    line-height: 1rem;
+.txt-card--l{
+    font-size: 1rem;
 }
 
 .txt-about-me{
     font-family: var(--font-lustria);
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: var(--black);
     letter-spacing: 0.07rem;
     line-height: 1.2rem;

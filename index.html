@@ -72,7 +72,7 @@
             </div>
 
             <div class="menu-nav" id="menu-nav">
-                <button onclick="scrollToSection('home'); animationBtnMenu(this)" class="btn-menu-item txt-menu-nav menu-item" data-section="home">inicio</button>
+                <button onclick="scrollToSection('home'); animationBtnMenu(this)" class="btn-menu-item txt-menu-nav menu-item" data-section="home" id="btn-home">inicio</button>
                 <button onclick="scrollToSection('gallery'); animationBtnMenu(this)" class="btn-menu-item txt-menu-nav menu-item" data-section="gallery">galería</button>
                 <button onclick="scrollToSection('about-me'); animationBtnMenu(this)" class="btn-menu-item txt-menu-nav menu-item" data-section="about-me">sobre mi</button>
                 <button onclick="scrollToSection('contact'); animationBtnMenu(this)" class="btn-menu-item txt-menu-nav menu-item" id="btn-contacto" data-section="contact">contacto</button>
@@ -93,7 +93,7 @@
 
                 <div class="div-buttons-main-header">
                     
-                    <button class="button button--primary button-txt" id="btn-contactame" onclick="scrollToSection('contact')">contactame</button>
+                    <button class="button button--primary button-txt" id="btn-contactame" onclick="scrollToSection('contact'); removeClass()">contactame</button>
                     
                     <button class="button button--primary button-txt">descarga mi CV</button>
                 </div>
@@ -187,7 +187,7 @@
             </div>
 
             <div class="card-contact card-contact--light">
-                <span class="span-card-contact txt-card" id="email">hola@danirox.site</span>
+                <span class="span-card-contact txt-card txt-card--l" id="email">hola@danirox.site</span>
                 <button class="button button--secondary button-txt" id="btn-copy" onclick="copy()">copiar</button>
             </div>
 

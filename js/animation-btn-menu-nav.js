@@ -9,3 +9,13 @@ function animationBtnMenu(button) {
     button.classList.add("btn-menu-item--active");
 }
 
+function removeClass(){
+        // Obtener el elemento al que deseas quitar la clase
+    var btnHome = document.getElementById("btn-home"); // Reemplaza "tuElemento" con el ID de tu elemento
+
+    // Verificar si el elemento tiene la clase antes de quitarla
+    if (btnHome.classList.contains("btn-menu-item--active")) {
+        // Eliminar la clase
+    btnHome.classList.remove("btn-menu-item--active");
+    }
+}

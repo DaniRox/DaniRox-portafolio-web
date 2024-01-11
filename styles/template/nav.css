@@ -18,3 +18,9 @@
         align-items: center;
     }  
 }
+
+@media only screen and (min-width: 1080px) {
+    .nav {
+        height: 5.5rem;
+    }  
+}
