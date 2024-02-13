@@ -25,3 +25,5 @@ cardsProjects.forEach(function(cardProject) {
     textProject.style.transition = "height 0.7s ease-in-out";
     imgProject.style.transition = "height 0.7s ease-in-out";
 });
+
+

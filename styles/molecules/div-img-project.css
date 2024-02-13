@@ -8,7 +8,15 @@
     align-items: flex-start;
 }
 
-
+.div-img-project--work{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.7rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
 
 /* estilos para la función de display-txt-project.js */
 

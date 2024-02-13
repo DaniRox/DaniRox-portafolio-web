@@ -5,7 +5,12 @@
     padding: 1rem;
 }
 
-
+.div-txt-card-project--work{
+    height: 0%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+}
 
 /* estilos para la función de display-txt-project.js */
  .show-txt{
