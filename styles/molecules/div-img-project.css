@@ -5,7 +5,7 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .div-img-project--work{
@@ -15,7 +15,17 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+}
+
+.div-img-project--work2{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.7rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* estilos para la función de display-txt-project.js */

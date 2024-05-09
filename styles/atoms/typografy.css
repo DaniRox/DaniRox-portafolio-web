@@ -150,8 +150,9 @@
 }
 
 .txt-about-me{
-    font-family: var(--font-lustria);
-    font-size: 1.1rem;
+    font-family: var(--font-poppins);
+    font-size: 1rem;
+    font-weight: 400;
     color: var(--black);
     letter-spacing: 0.07rem;
     line-height: 1.2rem;
