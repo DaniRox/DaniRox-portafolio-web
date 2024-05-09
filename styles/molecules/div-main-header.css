@@ -1,4 +1,6 @@
 .div-main-header{
+    background-image: url(../../assets/backgroun-header.png);
+    background-position: center;
     width: 80%;
     padding: 2rem 15% 2rem;
     display: flex;

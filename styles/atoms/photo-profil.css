@@ -1,23 +1,23 @@
 .photo-profil{
-    width: 20rem;
-    margin: 1.5rem 0;
+    width: 12rem;
+    margin: 1.5rem;
 }
 
 
 @media only screen and (min-width: 480px){
     .photo-profil{
-        width: 23rem;
+        width: 13rem;
     }
 }
 
 @media only screen and (min-width: 770px){
     .photo-profil{
-        width: 24rem;
+        width: 16rem;
     }
 }
 
 @media only screen and (min-width: 1080px){
     .photo-profil{
-        width: 25rem;
+        width: 18rem;
     }
 }
