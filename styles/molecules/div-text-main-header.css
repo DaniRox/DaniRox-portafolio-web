@@ -1,10 +1,10 @@
 .div-text-main-header{
-    margin-left: 0rem;
+    z-index: 2;
 }
 
 
-@media only screen and (min-width: 1080px){
+@media only screen and (min-width: 980px){
     .div-text-main-header{
-        margin-left: -3.5rem;
+        padding: 2rem;
     }
 }

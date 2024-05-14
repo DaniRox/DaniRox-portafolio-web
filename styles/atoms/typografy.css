@@ -1,61 +1,80 @@
+
 .title-main-header{
-    font-family: var(--font-playfair);
-    color: var(--cafe-noir);
-    font-size: 1.5rem;
-    font-weight: 900;
-    margin-bottom: -0.2rem;
+    font-family: "avigea";
+    color: var(--smoky-black);
+    font-weight: 800;
+    font-size: 1.7rem;
+    line-height: 2rem;
 }
 
+.color-white{
+    color: var(--white);
+}
+
+.color-smoky{
+    color: var(--smoky-black);
+}
+
+.color-butterscotch{
+    color: var(--butterscotch);
+}
+
+.color-cafe-noir{
+    color: var(--cafe-noir);
+}
+
+.color-dark-cyan{
+    color: var(--dark-cyan);
+}
+
+.color-tiffany-blue{
+    color: var(--tiffany-blue);
+}
 
 
 @media only screen and (min-width: 480px){
     .title-main-header{
         font-size: 2rem;
+        line-height: 2.2rem;
     }
 
 }
 
 @media only screen and (min-width: 770px){
     .title-main-header{
-        font-size: 2.1rem;
+        font-size: 2rem;
+        line-height: 2.2rem;
     }
 
 }
 
 @media only screen and (min-width: 1080px){
     .title-main-header{
-        font-size: 2.4rem;
-    }
-
-    .title-main-header--right{
-        font-size: 3.7rem;
+        font-size: 2.6rem;
     }
 }
 
 
 .txt-menu-nav{
-    font-family: var(--font-poppins);
-    color: var(--smoky-black);
+    font-family: "kenyan-regular";
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     font-weight: 700;
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.1rem;
 }
 
 
 .button-txt{
     font-family: var(--font-poppins);
-    color: var(--black);
     font-size: 0.8rem;
     font-weight: 600;
     letter-spacing: 0.07rem;
 }
 
 .title-section{
-    font-family: var(--font-poppins);
-    color: var(--black);
-    font-size: 1.5rem;
-    font-weight: 800;
+    font-family: "avigea";
+    font-size: 1.7rem;
+    font-weight: 500;
     margin: 1rem 0 3rem 0;
 }
 
@@ -78,9 +97,13 @@
 }
 
 
+.title-card-services{
+    font-family: "kenyan-bold";
+    font-size: 1.3rem;
+}
+
 .title-card-project{
     font-family: var(--font-poppins);
-    color: var(--black);
     font-size: 1.1rem;
     font-weight: 500;
     letter-spacing: 0.1rem;
@@ -88,25 +111,30 @@
     margin-bottom: 0.3rem;
 }
 
+.title-img-services{
+    font-family: "avigea";
+    font-size: 1.6rem;
+    transform: rotate(-90deg);
+    position: absolute;
+    margin-left: -16rem;
+}
+
 .subtitle-section{
-    font-family: var(--font-poppins);
-    color: var(--black);
+    font-family: "avigea";
     font-size: 1.4rem;
     font-weight: 500;
     margin: 0.7rem 0;
 }
 
 .txt-description-card-project{
-    font-family: var(--font-lustria);
+    font-family: "corbel-normal";
     font-size: 0.9rem;
-    color: var(--black);
     letter-spacing: 0.06rem;
     line-height: 1rem;
 }
 
 .txt-card{
     font-family: var(--font-poppins);
-    color: var(--black);
     font-size: 0.9rem;
     font-weight: 600;
     margin: 0.7rem 0;
@@ -115,7 +143,6 @@
 }
 
 .txt-card--white{
-    color: var(--white);
     font-weight: 500;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
@@ -127,14 +154,12 @@
 .txt-about-me{
     font-family: var(--font-lustria);
     font-size: 1.1rem;
-    color: var(--black);
     letter-spacing: 0.07rem;
     line-height: 1.2rem;
 }
 
 .link-project{
     font-family: var(--font-poppins);
-    color: var(--black);
     text-transform: uppercase;
     font-size: 0.7rem;
     font-weight: 700;

@@ -1,11 +1,11 @@
 .logo-header{
-    width: 7rem;
+    width: 6rem;
 }
 
 
 @media only screen and (min-width: 770px){
     .logo-header{
-        width: 8rem;
+        width: 7rem;
     }
 }
 

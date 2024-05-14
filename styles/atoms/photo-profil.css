@@ -1,6 +1,7 @@
 .photo-profil{
     width: 12rem;
     margin: 1.5rem;
+    z-index: 2;
 }
 
 
@@ -12,12 +13,18 @@
 
 @media only screen and (min-width: 770px){
     .photo-profil{
-        width: 16rem;
+        width: 13rem;
+    }
+}
+
+@media only screen and (min-width: 980px){
+    .photo-profil{
+        width: 15rem;
     }
 }
 
 @media only screen and (min-width: 1080px){
     .photo-profil{
-        width: 18rem;
+        width: 17rem;
     }
 }

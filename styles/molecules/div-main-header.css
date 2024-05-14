@@ -1,34 +1,40 @@
 .div-main-header{
-    background-image: url(../../assets/backgroun-header.png);
-    background-position: center;
+    background-color: var(--tiffany-blue);
     width: 80%;
+    height: 26rem;
     padding: 2rem 15% 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 3rem 0 0;
+    margin: 2.8rem 0 0;
 }
 
 
 @media only screen and (min-width: 480px){
     .div-main-header{
-        justify-content: space-around;
+        height: 29rem;
     }
 }
 
-@media only screen and (min-width: 1080px){
-    .div-main-header{
-        padding: 5rem 15% 0;
-    }
-}
-
-@media only screen and (min-width: 1080px){
+@media only screen and (min-width: 770px){
     .div-main-header{
         flex-direction: row;
+    }
+}
+
+
+@media only screen and (min-width: 980px){
+    .div-main-header{
+        height: 33rem;
         justify-content: center;
         margin: 0;
-        padding: 5rem 15% 2rem;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    .div-main-header{
+        padding: 5rem 20% 3rem;
     }
 }
 

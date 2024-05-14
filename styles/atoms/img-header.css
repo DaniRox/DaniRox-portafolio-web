@@ -1,0 +1,28 @@
+.img-header{
+    display: flex;
+    height: 36rem;
+    top: 8rem;
+    position: absolute;
+    z-index: 2;
+}
+
+
+@media only screen and (min-width: 470px){
+    .img-header{
+        height: 39rem;
+    }
+}
+
+@media only screen and (min-width: 770px){
+    .img-header{
+        height: 41rem;
+        top: 8rem;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    .img-header{
+        width: 100%;
+        height: auto;
+    }
+}

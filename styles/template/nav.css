@@ -1,4 +1,6 @@
 .nav {
+    top: 0;
+    z-index: 3;
     background-color: var(--baby-powder);
     width: 100%;
     padding: 0.5rem 15%;
@@ -11,7 +13,6 @@
 
 @media only screen and (min-width: 770px) {
     .nav {
-        height: 4.5rem;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -20,6 +21,5 @@
 
 @media only screen and (min-width: 1080px) {
     .nav {
-        height: 5.5rem;
     }  
 }
