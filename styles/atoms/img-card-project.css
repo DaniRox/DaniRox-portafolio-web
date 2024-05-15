@@ -1,18 +1,6 @@
 .img-card-project{
-    width: 150%;
-    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+    height: auto;
+    border-radius: 0.3rem;
 }
 
-.img-card-project--work{
-    height: 100%;
-    border-radius: 1rem;
-}
-
-
-@media only screen and (min-width: 770px){
-    .img-card-project--work{
-        width: 150%;
-        height: auto;
-    }
-    
-}

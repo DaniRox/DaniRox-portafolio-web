@@ -1,25 +1,14 @@
 .div-img-project{
-    width: 100%;
-    height: 60%;
-    border-radius: 0.7rem 0.7rem 0 0;
-    overflow: hidden;
+    width: 50%;
+    height: 12rem;
+    margin-bottom: -1rem;
+    border-radius: 0.7rem;
+    border: 0.5rem solid var(--smoky-black);
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
 
-.div-img-project--work{
-    width: 100%;
-    height: 100%;
-    border-radius: 0.7rem;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
 
 /* estilos para la función de display-txt-project.js */
 
-.hide-img{
-    height: auto;
-}

@@ -2,3 +2,17 @@
     width: 16rem;
     margin: 2rem;
 }
+
+
+
+@media only screen and (min-width: 770px){
+    .card-services{
+        width: 18rem;
+    }
+}
+
+@media only screen and (min-width: 980px){
+    .card-services{
+        width: 20rem;
+    }
+}

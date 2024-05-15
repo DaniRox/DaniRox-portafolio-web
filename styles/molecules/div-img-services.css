@@ -7,3 +7,18 @@
     align-items: center;
     justify-content: center;
 }
+
+
+@media only screen and (min-width: 770px){
+    .div-img-services{
+        height: 14rem;
+        padding: 2.1rem;
+    }
+}
+
+@media only screen and (min-width: 980px){
+    .div-img-services{
+        height: 15rem;
+        padding: 2.4rem;
+    }
+}

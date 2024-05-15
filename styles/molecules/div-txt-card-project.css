@@ -1,20 +1,16 @@
 .div-txt-card-project{
-    height: 40%;
+    background-color: var(--tiffany-blue);
+    width: 60%;
+    height: auto;
     display: flex;
     flex-direction: column;
     padding: 1rem;
 }
 
-.div-txt-card-project--work{
-    height: 0%;
-    display: flex;
-    overflow: hidden;
-    flex-direction: column;
-}
 
 /* estilos para la función de display-txt-project.js */
- .show-txt{
+/*.show-txt{
     height: 100%;
- }
+}*/
 
 
