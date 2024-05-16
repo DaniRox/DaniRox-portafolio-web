@@ -1,0 +1,13 @@
+.card-methodology{
+    width: 14rem;
+    height: 14rem;
+    border-radius: 10rem;
+    background-color: var(--tiffany-blue);
+    padding: 1.6rem;
+    margin: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

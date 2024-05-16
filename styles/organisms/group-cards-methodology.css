@@ -1,0 +1,8 @@
+.group-cards-methodology{
+    width: 120%;
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}

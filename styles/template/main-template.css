@@ -1,30 +1,10 @@
 .main-template{
     background-color: var(--baby-powder);
     width: 100%;
-    padding: 1rem 15% 0;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     position: relative;
     z-index: 0;
     overflow: hidden;
-}
-
-
-@media only screen and (min-width: 770px){
-    .main-template{
-        width: 100%;
-    }
-}
-
-@media only screen and (min-width: 1080px){
-    .main-template{
-        width: 100%;
-        padding: 2rem 15% 0;
-    }
-}
-
-@media only screen and (min-width: 1280px){
-    .main-template{
-    }
 }

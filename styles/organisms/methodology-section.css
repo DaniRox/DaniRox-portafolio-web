@@ -1,8 +1,6 @@
-.about-me-section{
-    background-color: var(--butterscotch);
+.methodology-section{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 4.4rem 15% 3rem;
 }

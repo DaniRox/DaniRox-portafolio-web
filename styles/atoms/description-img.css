@@ -1,0 +1,10 @@
+.description-img{
+    height: 140%;
+}
+
+@media only screen and (min-width: 470px){
+    .description-img{
+        width: 110%;
+        height: auto;
+    }
+}
